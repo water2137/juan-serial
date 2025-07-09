@@ -1,14 +1,7 @@
-;
+; ===============================================
 ; assemble with: nasm -f bin juan.asm -o juan.img
 ; run with qemu: qemu-system-x86_64 -fda juan.img
-;
-[org 0x7c00]
-
-start:
-;
-; assemble with: nasm -f bin juan.asm -o juan.img
-; run with qemu: qemu-system-x86_64 -fda juan.img
-;
+; ===============================================
 [org 0x7c00]
 
 start:
