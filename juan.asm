@@ -178,7 +178,7 @@ serial_getch:
 	ret
 
 welcome_msg: db 'juan v0.1', 0x0d, 0x0a, 0
-prompt: db 0x0d, 0x0a, '> ', 0
+prompt: db 0x0d, 0x0a, '(juan)# ', 0
 newline: db 0x0d, 0x0a, 0
 ; exec_msg:	db 'juanning', 0x0d, 0x0a, 0
 
